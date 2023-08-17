@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+
+}
+.html {
+
+}
+@font-face {
+    font-family: TikTokFont;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: TikTokFont2;
+    src: url(fonts/Futura\ Maxi\ CG\ Bold\ Regular.otf);
+}
+.header {
+    height: 50px;
+    display: flex;
+   position: fixed;
+    justify-content: space-between;
+    border-bottom: 1px rgb(227, 227, 227) solid;
+width: 100%;
+z-index: 100;
+background-color: white;
+align-items: center;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    height: 40px;
+    justify-content: space-between;
+    width: 500px;
+max-width: 500px;
+    min-width: 60px;
+    
+}
+.followed-account {
+    padding-left: 10px;
+}
+.tiktoklogo {
+    width: 120px;
+}
+textarea:focus, input:focus{
+    outline: none;
+   
+}
+.searchbar input {
+    background-color: transparent;
+    border: none;
+    color: rgb(169, 169, 169); 
+    width: 100%;
+   padding-left: 15px;
+}
+.search-icon    {
+    width: 22px;
+  padding-right: 15px;
+  border-left: 1px rgb(218, 218, 218) solid;
+  padding-left: 10px;
+}
+.upload-button {
+    background-color: white;
+    border: 1px rgb(218, 218, 218) solid;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.poster-username {
+    display: flex;
+}
+.right-section {
+    display: flex;
+}
+.icons img{
+ width: 25px;
+ 
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-right: 20px;
+}
+.tabs img {
+    width: 30px;
+}
+.tabs {
+    
+    width: 200px;
+    padding-bottom: 10px;
+   border-bottom: 1px rgb(208, 208, 208) solid;
+   line-height: 40px;
+}
+.following, .foryou, .explore, .live {
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    padding-left: 10px;
+}
+.following:hover, .foryou:hover, .explore:hover, .live:hover {
+    background-color: rgb(230, 229, 229);
+    
+}
+
+.info {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    padding-left: 5px;
+    word-wrap: normal;
+    padding-bottom: 15px;
+    max-width: 230px;
+}
+.info p {
+    padding-right: 5px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+.sidebar {
+    position: fixed;
+    width: 230px;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    font-family: TikTokFont2;
+    font-size: 15px;
+    padding-top: 60px;
+   padding-bottom: 20px;
+   flex-direction: column;
+   padding-right: 10px;
+   background-color: white;
+
+}
+.following-accounts {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.see-more {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: rgb(223, 0, 0);
+}
+.followed-accounts-wrap {
+ 
+}
+.followed-account img {
+
+}
+.pfp-image {
+    
+}
+.poster-pfp-image {
+margin: 10px;
+}
+.followed-account {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+    transition: 0.4s;
+}
+.post-info {
+    padding-top: 20px;
+    line-height: 25px;
+}
+.handle {
+    font-size: 8px;
+    color: rgb(152, 152, 152);
+}
+.followed-account:hover {
+    background-color: rgb(230, 229, 229);
+}
+.feed-wrap {
+   
+    
+    padding: 20px;
+    
+    display: flex;
+justify-content: center;
+  
+}
+.feed { 
+width: 100%;
+ height: auto;
+ max-width: 700px;
+
+   flex-wrap: wrap;
+}
+.post {
+    display: flex;
+    max-width: 700px;
+    width: auto;
+    max-height: 700px;
+    border-bottom: 1px rgb(206, 206, 206) solid;
+}
+.post-image {
+    
+}
+.header-wrap {
+    position: sticky;
+    height: 50px;
+ 
+    z-index: 100;
+    width: 100%;
+}
+.post-icons img {
+    width: 25px;
+}
+.post-icons {
+    font-family: TikTokFont;
+ bottom: 0;
+ height: 100%;
+ 
+
+}
+.post-wrap {
+    display: flex;
+}
+.posted-image {
+    max-width: 600px;
+    max-height: 500px;
+    min-width: 400px;
+    min-height: 300px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
